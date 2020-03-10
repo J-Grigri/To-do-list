@@ -1,0 +1,41 @@
+body {
+    background-image: url(bg.jpg);
+    font-family: 'Bellota', cursive;
+    color: #7E8F7C;
+    font-size:16px;
+}
+#container {
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#deleteBtn {
+    text-align: right;
+}
+
+.todoContainer {
+    background-color:#D7FFFF;
+    width:60%;
+    min-height:400px;
+    border-radius: 20px;
+}
+
+.results {
+    text-align: left;
+}
+.addBtn {
+    background-color: 7E8F7C#;
+    border-radius: 10px;
+    background-color: #7E8F7C;
+    font-size:20px;
+}
+input {
+    background-color: transparent;
+    border:1px solid #7E8F7C;
+    height:25px;
+}
+h1 {
+    font-size:60px;
+}
